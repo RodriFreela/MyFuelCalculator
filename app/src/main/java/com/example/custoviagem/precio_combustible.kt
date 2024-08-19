@@ -23,7 +23,5 @@ class precio_combustible : AppCompatActivity() {
             val intentConsumo = Intent(this, consumo::class.java)
             startActivity(intentConsumo)
         }
-
-
     }
 }

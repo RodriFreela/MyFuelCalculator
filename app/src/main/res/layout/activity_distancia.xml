@@ -46,6 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/distancia">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/distancia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Somente números - ex: 150km"
