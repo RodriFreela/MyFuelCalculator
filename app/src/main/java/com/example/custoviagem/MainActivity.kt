@@ -15,6 +15,12 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        // criar variavel pra receber preço combustível
+        // variavel pra receber consumo
+        // variavel pra receber a distancia
+        // variavel "litros" pra receber calculo distancia/consumo
+        // varivel pra receber calculo (litros*preço)
+
         val btnIniciar = findViewById<Button>(R.id.iniciar)
         btnIniciar.setOnClickListener {
             val intent = Intent(this, precio_combustible::class.java)

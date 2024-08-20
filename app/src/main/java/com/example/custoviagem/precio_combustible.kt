@@ -16,10 +16,15 @@ class precio_combustible : AppCompatActivity() {
         setContentView(R.layout.activity_precio_combustible)
 
 
-        val price = findViewById<TextInputEditText>(R.id.edttext_price)
+        val edtprice = findViewById<TextInputEditText>(R.id.edt_price)
+
+
 
         val btnProximo1 = findViewById<Button>(R.id.proximo1)
         btnProximo1.setOnClickListener {
+            val price_Combustivel = edtprice.text
+            // println("Preço:" + price_Combustivel)
+
             val intentConsumo = Intent(this, consumo::class.java)
             startActivity(intentConsumo)
         }

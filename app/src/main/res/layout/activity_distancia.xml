@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/distancia_removebg" />
 
     <TextView
-        android:id="@+id/distancia"
+        android:id="@+id/tv_distancia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -43,25 +43,26 @@
         app:hintEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/distancia">
+        app:layout_constraintTop_toBottomOf="@+id/tv_distancia">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/distancia"
+            android:background="@drawable/roundstyle"
+            android:id="@+id/edt_distancia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Somente números - ex: 150km"
             android:inputType="numberDecimal"
-            android:textColor="@color/white"/>
+            android:textColor="@color/black"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/proximo3"
+        android:id="@+id/Calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="36dp"
-        android:text="Próximo"
+        android:text="Calcular"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

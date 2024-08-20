@@ -15,11 +15,17 @@ class distancia : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_distancia)
 
-        val distancia = findViewById<TextInputEditText>(R.id.distancia)
+        val distancia1 = findViewById<TextInputEditText>(R.id.edt_distancia)
 
-        val btnProximo3 = findViewById<Button>(R.id.proximo3)
-        // criar button.setOnClickListener
-        // criar intent Resultado aqui
 
+
+        val calcular = findViewById<Button>(R.id.Calcular)
+        calcular.setOnClickListener {
+            val distancia = distancia1.text
+            // println("Distancia:" + distancia)
+
+            val resultado = Intent(this, resultado::class.java)
+            startActivity(resultado)
+        }
     }
 }
