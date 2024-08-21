@@ -14,5 +14,12 @@ class resultado : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_resultado)
 
+        val getResultadoFinal = intent.getFloatExtra("ChaveDistancia" , 0f)
+
+        val novoCalculo = findViewById<Button>(R.id.btn_calculo)
+        novoCalculo.setOnClickListener {
+            val mainScreen = Intent(this, MainActivity::class.java)
+            startActivity(mainScreen)
+        }
     }
 }

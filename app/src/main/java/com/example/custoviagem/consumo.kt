@@ -10,21 +10,26 @@ import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.textfield.TextInputEditText
 
 class consumo : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_consumo)
 
         val edtconsumo = findViewById<TextInputEditText>(R.id.edt_consumo)
+        val valorCombustivel = intent.getFloatExtra(KEY_COMBUSTIVEL , 0f)
+        println("Valor:" + valorCombustivel)
 
 
 
         val btnProximo2 = findViewById<Button>(R.id.proximo2)
         btnProximo2.setOnClickListener {
-            val consumo = edtconsumo.text
+            val consumo: Float = edtconsumo.text.toString().toFloat()
+
             // println("Consumo:" + consumo)
 
             val intentDistancia = Intent(this, distancia::class.java)
+            intent.putExtra(KEY_CONSUMO, consumo)
             startActivity(intentDistancia)
 
         }

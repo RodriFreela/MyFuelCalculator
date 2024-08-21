@@ -22,10 +22,12 @@ class precio_combustible : AppCompatActivity() {
 
         val btnProximo1 = findViewById<Button>(R.id.proximo1)
         btnProximo1.setOnClickListener {
-            val price_Combustivel = edtprice.text
+            val price_Combustivel: Float = edtprice.text.toString().toFloat()
+
             // println("Preço:" + price_Combustivel)
 
             val intentConsumo = Intent(this, consumo::class.java)
+            intent.putExtra(KEY_COMBUSTIVEL , price_Combustivel)
             startActivity(intentConsumo)
         }
     }
