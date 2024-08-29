@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Digite o consumo do seu carro"
-        android:fontFamily="@font/belanosima"
+        android:fontFamily="@font/belanosima_regular"
         android:textSize="20dp"
         android:textColor="@color/white"
         android:shadowDx="4"

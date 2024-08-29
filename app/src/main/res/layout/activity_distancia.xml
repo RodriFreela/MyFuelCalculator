@@ -27,7 +27,7 @@
         android:layout_marginTop="10dp"
         android:text="Digite a distância a ser percorrida"
         android:textColor="@color/white"
-        android:fontFamily="@font/belanosima"
+        android:fontFamily="@font/belanosima_regular"
         android:shadowDx="4"
         android:shadowDy="4"
         android:shadowRadius="2"
