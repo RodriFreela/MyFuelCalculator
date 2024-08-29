@@ -5,7 +5,7 @@ O Fuel Calculator é um aplicativo simples e eficiente que ajuda você a calcula
 Se você está planejando uma viagem ou apenas quer entender melhor seus gastos com combustível no dia a dia, esse app facilita o processo, permitindo que você 
 tome decisões mais informadas.
 ### Como funciona?
-Insira os Dados: Informe o preço médio do combustível, o consumo médio do carro, informe a distância da viagem, visualize o Custo. O app calcula o valor exato que será gasto com combustível.
+Insira os Dados: Informe o preço médio do combustível, o consumo médio do carro, informe a distância da viagem, visualize o custo. O app calcula o valor exato que será gasto com combustível.
 Revise os dados inseridos e caso necessário, ajuste as variáveis e faça novos cálculos. Simples assim.
 
 ### Para Quem é Indicado:
