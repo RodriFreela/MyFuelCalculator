@@ -36,7 +36,7 @@ Se você quer estar mais informado sobre seus gastos de conmbustível e dirigir 
   - Button
 
  ## Author
- Rodrigo Oliveira, find me on [LinkedIn](www.linkedin.com/in/rodrigooliveira-spain)
+ Rodrigo Oliveira, connect with me on LinkedIn (Link in bio)
 
  ## License
 ```
