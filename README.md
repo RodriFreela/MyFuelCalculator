@@ -6,9 +6,9 @@ Se você está planejando uma viagem ou apenas quer entender melhor seus gastos 
 tome decisões mais informadas.
 
 ## :camera_flash: Screenshots
-<img src="https://github.com/user-attachments/assets/b7f88123-abea-4571-bc87-9ecde456b2de" width=160/>
-<img src="https://github.com/user-attachments/assets/0109d824-e7da-4910-966f-9f86ced91be9" width=160/>
-<img src="https://github.com/user-attachments/assets/e7f990e1-8d6b-49cc-a19e-a095b3e1889d" width=160/>
+<img src="https://github.com/user-attachments/assets/009c07bc-70d0-4767-9a22-088060cd228c" width=160/>
+<img src="https://github.com/user-attachments/assets/a023120f-ab85-4823-a3ae-db6e72dc9ed7" width=160/>
+<img src="https://github.com/user-attachments/assets/9f8d1de8-239a-4076-a5b9-b2e325e529e0" width=160/>
 
 ### Como funciona?
 Insira os Dados: Informe o preço médio do combustível, o consumo médio do carro, informe a distância da viagem, visualize o custo. O app calcula o valor exato que será gasto com combustível.
