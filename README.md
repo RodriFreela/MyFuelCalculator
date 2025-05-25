@@ -6,7 +6,7 @@ Tanto si estás planeando un viaje como si simplemente quieres conocer mejor tus
 tome decisiones más informadas.
 
 ## :camera_flash: Screenshots
-<img src="https://github.com/user-attachments/assets/009c07bc-70d0-4767-9a22-088060cd228c" width=160/>
+<img src="https://github.com/user-attachments/assets/Screenshot_20250516_145115" width=160/>
 <img src="https://github.com/user-attachments/assets/a023120f-ab85-4823-a3ae-db6e72dc9ed7" width=160/>
 <img src="https://github.com/user-attachments/assets/9f8d1de8-239a-4076-a5b9-b2e325e529e0" width=160/>
 
