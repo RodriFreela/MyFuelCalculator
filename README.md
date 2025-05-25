@@ -1,22 +1,22 @@
-# Fuel Calculator
+# MyFuelCalculator
 
-## Resume
-O Fuel Calculator é um aplicativo simples e eficiente que ajuda você a calcular de forma rápida o custo do combustível para suas viagens de carro. 
-Se você está planejando uma viagem ou apenas quer entender melhor seus gastos com combustível no dia a dia, esse app facilita o processo, permitindo que você 
-tome decisões mais informadas.
+## Resumen
+Fuel Calculator es una aplicación sencilla y eficaz que te ayuda a calcular rápidamente el coste del combustible para tus viajes en coche. 
+Tanto si estás planeando un viaje como si simplemente quieres conocer mejor tus gastos diarios en combustible, esta aplicación te facilita el proceso y te permite tomar decisiones con más conocimiento de causa. 
+tome decisiones más informadas.
 
 ## :camera_flash: Screenshots
 <img src="https://github.com/user-attachments/assets/009c07bc-70d0-4767-9a22-088060cd228c" width=160/>
 <img src="https://github.com/user-attachments/assets/a023120f-ab85-4823-a3ae-db6e72dc9ed7" width=160/>
 <img src="https://github.com/user-attachments/assets/9f8d1de8-239a-4076-a5b9-b2e325e529e0" width=160/>
 
-### Como funciona?
-Insira os Dados: Informe o preço médio do combustível, o consumo médio do carro, informe a distância da viagem, visualize o custo. O app calcula o valor exato que será gasto com combustível.
-Revise os dados inseridos e caso necessário, ajuste as variáveis e faça novos cálculos. Simples assim.
+### ¿Cómo funciona?
+Introduce los datos: Introduce el precio medio del combustible, el consumo medio del coche, introduce la distancia del trayecto, visualiza el coste. La aplicación calcula la cantidad exacta que gastarás en combustible.
+Revisa los datos introducidos y, si es necesario, ajusta las variables y realiza nuevos cálculos. Así de sencillo.
 
-### Para Quem é Indicado:
-O Fuel Calculator é perfeito para motoristas, viajantes, gestores de frotas e qualquer pessoa que deseje ter mais controle sobre os custos de transporte. 
-Se você quer estar mais informado sobre seus gastos de conmbustível e dirigir sabendo quanto irá gastar, este app é para você!
+### Para quién:
+Fuel Calculator es perfecta para conductores, viajeros, gestores de flotas y cualquiera que quiera tener más control sobre sus costes de transporte. 
+Si quieres estar más informado sobre tus gastos de combustible y conducir sabiendo cuánto vas a gastar, ¡esta aplicación es para ti!
 
 ## Tecnologias
 - FindViewById to recovery UI components
