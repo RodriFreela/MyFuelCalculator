@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/main_bg"
     tools:context=".MainActivity">
 
 
@@ -13,12 +13,12 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/belanosima_regular"
+        android:fontFamily="@font/oswald_light"
         android:shadowDx="4"
         android:shadowDy="4"
         android:shadowRadius="2"
         android:shadowColor="#80000000"
-        android:text="Calcule o gasto de combustível"
+        android:text="Calcular el coste del combustible"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="26dp"
@@ -29,22 +29,20 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_width="352dp"
+        android:layout_height="63dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="40dp"
-        android:fontFamily="@font/belanosima_regular"
-        android:text="Este app calcula o seu gasto de \n combustível para sua viagem"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20dp"
+        android:fontFamily="@font/oswald_medium"
+        android:shadowColor="#80000000"
         android:shadowDx="4"
         android:shadowDy="4"
         android:shadowRadius="2"
-        android:shadowColor="#80000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="Esta aplicación calcula el gasto en \ncombustible de tu viaje"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@id/textView1"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <ImageView
@@ -56,29 +54,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/destino_removebg" />
 
-    <Button
-        android:id="@+id/iniciar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:background="@drawable/roundstyle"
-        android:text="Iniciar"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        <Button
+            android:id="@+id/iniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/roundstyle"
+            android:text="Iniciar"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="0dp"
-        android:layout_height="3dp"
-        app:srcCompat="@drawable/background_result"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="370dp" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 

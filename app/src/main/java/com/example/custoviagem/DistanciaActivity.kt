@@ -40,11 +40,13 @@ class distancia : AppCompatActivity() {
                 val distancia: Float = distanciaStr.toFloat()
                 println("Distancia:" + distancia)
 
-                val litros: Float = distancia / consumo
+                val litros: Float = (distancia * consumo) / 100
                 println("Litros consumidos:" + litros)
 
                 val resultadoFinal: Float = price * litros
                 println("Resultado:" + resultadoFinal)
+
+
 
                 val resultado = Intent(this, ResultadoActivity::class.java)
                     .apply {

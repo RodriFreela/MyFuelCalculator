@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/tela_final"
     tools:context=".ResultadoActivity">
 
-    <View
+    <!--<View
         android:id="@+id/view"
         android:layout_width="340dp"
         android:layout_height="200dp"
@@ -17,31 +17,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="30dp"/>
-
+    -->
 
     <TextView
         android:id="@+id/confiraAbaixo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:fontFamily="@font/belanosima_regular"
+        android:fontFamily="@font/oswald_light"
         android:gravity="center"
-        android:text="Confira acima o resultado:"
-        android:textColor="@color/white"
-        android:shadowDx="4"
-        android:shadowDy="4"
+        android:text="Compruebe los resultados:"
+        android:textColor="@color/primary_color"
         android:shadowRadius="2"
         android:shadowColor="#80000000"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_result" />
 
     <TextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/belanosima_regular"
+        android:fontFamily="@font/oswald_light"
         android:gravity="center"
         android:maxLength="7"
         android:textColor="@color/primary_color"
@@ -51,8 +49,9 @@
         android:shadowColor="#80000000"
         android:textSize="68dp"
 
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+
         tools:text="CUSTO" />
 
 
@@ -60,15 +59,16 @@
         android:id="@+id/dadosInseridos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:fontFamily="@font/belanosima_regular"
-        android:text="Estes foram os dados inseridos:"
-        android:textColor="@color/white"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/oswald_light"
+        android:textStyle="bold"
+        android:text="Estos fueron los datos introducidos:"
+        android:textColor="@color/primary_color"
         android:shadowDx="4"
         android:shadowDy="4"
         android:shadowRadius="2"
-        android:shadowColor="#80000000"
-        android:textSize="20dp"
+        android:shadowColor="#10000000"
+        android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confiraAbaixo" />
@@ -87,28 +87,30 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/belanosima_regular"
+                android:fontFamily="@font/oswald_light"
                 android:padding="8dp"
-                android:text="Preço do combustível:"
-                android:textColor="@color/white"
+                android:text="Precio del combustible:"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="2"
-                android:shadowColor="#80000000"
-                android:textSize="16sp" />
+                android:shadowColor="#10000000"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/tv_priceFinal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/belanosima_regular"
+                android:fontFamily="@font/oswald_light"
                 android:padding="8dp"
-                android:textColor="@color/white"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="2"
-                android:shadowColor="#80000000"
-                android:textSize="16sp"
+                android:shadowColor="#10000000"
+                android:textSize="20sp"
                 tools:text="preço">
 
             </TextView>
@@ -118,29 +120,31 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/belanosima_regular"
+                android:fontFamily="@font/oswald_light"
+                android:textStyle="bold"
                 android:padding="8dp"
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="2"
-                android:shadowColor="#80000000"
+                android:shadowColor="#10000000"
                 android:text="Litros consumidos:"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
+                android:textColor="@color/primary_color"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/edt_litros"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/belanosima_regular"
+                android:fontFamily="@font/oswald_light"
+                android:textStyle="bold"
                 android:padding="8dp"
                 android:maxLength="4"
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="2"
-                android:shadowColor="#80000000"
-                android:textColor="@color/white"
-                android:textSize="16sp"
+                android:shadowColor="#10000000"
+                android:textColor="@color/primary_color"
+                android:textSize="20sp"
                 tools:text="litros">
             </TextView>
         </TableRow>
@@ -150,28 +154,30 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/belanosima_regular"
+                android:fontFamily="@font/oswald_light"
+                android:textStyle="bold"
                 android:padding="8dp"
                 android:text="Consumo:"
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="2"
-                android:shadowColor="#80000000"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
+                android:shadowColor="#10000000"
+                android:textColor="@color/primary_color"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/tv_consumoFinal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/belanosima_regular"
+                android:fontFamily="@font/oswald_light"
+                android:textStyle="bold"
                 android:padding="8sp"
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="2"
-                android:shadowColor="#80000000"
-                android:textColor="@color/white"
-                android:textSize="16dp"
+                android:shadowColor="#10000000"
+                android:textColor="@color/primary_color"
+                android:textSize="20dp"
                 tools:text="consumo">
 
             </TextView>
@@ -182,28 +188,30 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/belanosima_regular"
+                android:fontFamily="@font/oswald_light"
                 android:padding="8dp"
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="2"
-                android:shadowColor="#80000000"
+                android:shadowColor="#10000000"
                 android:text="Distancia:"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/tv_distanciaFinal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/belanosima_regular"
+                android:fontFamily="@font/oswald_light"
+                android:textStyle="bold"
                 android:padding="8sp"
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="2"
-                android:shadowColor="#80000000"
-                android:textColor="@color/white"
-                android:textSize="16dp"
+                android:shadowColor="#10000000"
+                android:textColor="@color/primary_color"
+                android:textSize="20dp"
                 tools:text="Distancia">
 
             </TextView>

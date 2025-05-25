@@ -25,7 +25,7 @@ class ResultadoActivity : AppCompatActivity() {
         val litrosFinal = intent.getFloatExtra("LitrosFinal" , 0.1f)
 
         val tvResult = findViewById<TextView>(R.id.tv_result)
-        tvResult.text = "$ " + (resultadoFinal.toString())
+        tvResult.text = "€ " + (resultadoFinal.toString())
 
         val tvPriceFinal = findViewById<TextView>(R.id.tv_priceFinal)
         tvPriceFinal.text = "$ " + (price.toString())
@@ -35,7 +35,7 @@ class ResultadoActivity : AppCompatActivity() {
 
 
         val tvConsumoFinal = findViewById<TextView>(R.id.tv_consumoFinal)
-        tvConsumoFinal.text = (consumo.toString()) + " km/L"
+        tvConsumoFinal.text = (consumo.toString()) + " L/100Km"
 
         val tvdistanciaFinal = findViewById<TextView>(R.id.tv_distanciaFinal)
         tvdistanciaFinal.text = (distancia.toString()) + " km"

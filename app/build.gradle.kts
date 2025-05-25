@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.custoviagem"
+        applicationId = "com.example.MyFuelCalculator"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
