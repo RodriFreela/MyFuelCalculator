@@ -6,9 +6,10 @@ Tanto si estás planeando un viaje como si simplemente quieres conocer mejor tus
 tome decisiones más informadas.
 
 ## :camera_flash: Screenshots
-<img src="https://github.com/user-attachments/assets/Screenshot_20250516_145115" width=160/>
-<img src="https://github.com/user-attachments/assets/a023120f-ab85-4823-a3ae-db6e72dc9ed7" width=160/>
-<img src="https://github.com/user-attachments/assets/9f8d1de8-239a-4076-a5b9-b2e325e529e0" width=160/>
+![Screenshot_20250516_145521](https://github.com/user-attachments/assets/c72f5877-bd4c-45fc-9065-64d8b32312d9)
+![Screenshot_20250516_145324](https://github.com/user-attachments/assets/f0afc658-fab7-44c7-9ebf-050ec4da4e4b)
+![Screenshot_20250516_145115](https://github.com/user-attachments/assets/92d35bec-cd38-415a-a299-e63a57ac49d2)
+
 
 ### ¿Cómo funciona?
 Introduce los datos: Introduce el precio medio del combustible, el consumo medio del coche, introduce la distancia del trayecto, visualiza el coste. La aplicación calcula la cantidad exacta que gastarás en combustible.
