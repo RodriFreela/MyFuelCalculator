@@ -6,9 +6,9 @@ Tanto si estás planeando un viaje como si simplemente quieres conocer mejor tus
 tome decisiones más informadas.
 
 ## :camera_flash: Screenshots
-![Screenshot_20250516_145521](https://github.com/user-attachments/assets/c72f5877-bd4c-45fc-9065-64d8b32312d9)
-![Screenshot_20250516_145324](https://github.com/user-attachments/assets/f0afc658-fab7-44c7-9ebf-050ec4da4e4b)
-![Screenshot_20250516_145115](https://github.com/user-attachments/assets/92d35bec-cd38-415a-a299-e63a57ac49d2)
+<img src="https://github.com/user-attachments/assets/c72f5877-bd4c-45fc-9065-64d8b32312d9" width=160/>
+<img src="https://github.com/user-attachments/assets/f0afc658-fab7-44c7-9ebf-050ec4da4e4b" width=160/>
+<img src="https://github.com/user-attachments/assets/92d35bec-cd38-415a-a299-e63a57ac49d2" width=160/>
 
 
 ### ¿Cómo funciona?
